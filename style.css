@@ -21,3 +21,162 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+Body {background-color: #f5f5f5; font-family: 'Rubik', sans-serif;}
+
+.Kontejner {display: flex;
+    width: 670px;
+    height: 440px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+margin: auto;
+margin-top: 150px;
+}
+
+.Levy {background-image: linear-gradient(to bottom, #06d7c1, #50cc49);
+    position: relative; 
+    font-family: 'Rubik', sans-serif;
+border-radius: 10px 0px 0px 10px;
+width: 335px;
+height: 440px;
+}
+
+
+.Nike {margin-top: 30px;
+    margin-left: 30px;
+margin-bottom: 30px;
+}
+
+
+.Text_horni {font-size: 16px;
+font-weight: 500;
+color: white;
+margin-left: 30px;
+margin-top: 0px;
+}
+
+.Cena {font-size: 28px;
+font-weight: 500;
+color: white;
+text-align: right;
+}
+
+.Zaruka {color: white; 
+font-size: 12px;
+font-weight: 400;
+text-align: right;
+}
+
+.Spodni {margin-top: 230px;
+margin-bottom: 30px;
+margin-right: 30px;
+}
+
+.Bota {position: absolute; top: 140px; left: -80px;}
+
+.Pravy {background: white;  
+    font-family: 'Rubik', sans-serif;
+border-radius: 0px 10px 10px 0px;
+width: 335px;
+height: 440px;
+}
+
+.Nadpis {font-size: 20px;
+font-weight: 500;
+text-transform: uppercase; 
+margin-top: 30px;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.Podnadpis {color: #959595;
+font-size: 14px;
+margin-top: 0px;
+margin-left: 30px;
+margin-right: 30px;
+font-weight: 400;
+}
+
+.Text {font-size: 14px; font-weight: 400;
+border-bottom: 1px solid #06d7c1;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 30px;
+padding-bottom: 25px;
+}
+
+
+
+h2 {text-transform: uppercase;
+font-size: 16px;
+font-weight: 500;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 0;}
+
+
+a {text-transform: uppercase;
+text-decoration: none;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+color: white;
+background-color:#f15f42;
+border-radius: 10px 10px 10px 10px;
+padding-top: 15px; 
+padding-bottom: 15px;
+ padding-left: 40px; 
+ padding-right: 40px;
+ display: inline-block;
+}
+
+li {font-size: 16px;
+     font-weight: 400;}
+
+ul {display: flex; 
+   }
+
+.Velikost {
+    list-style: none;
+    font-size: 18px;
+    padding-left: 0;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 34px;
+    margin-top: 5px;
+    min-height: 20px; 
+    min-width: 20px;
+    justify-content: center 
+    }
+
+.pet {flex-basis: 16%;
+    text-align: center;
+    padding: 12px; 
+    margin-left: 0;}
+
+.sest {flex-basis: 16%;
+    text-align: center;
+    padding: 12px;}
+
+.sedm {flex-basis: 16%;
+    text-align: center;
+    padding: 12px;}
+
+.osm {flex-basis: 16%; 
+    color:#f15f42; 
+    border-radius: 50%;
+     border: 2px solid #f15f42;
+     text-align: center; 
+     padding: 12px; 
+     }
+
+.devet {flex-basis: 16%;
+    text-align: center;
+    padding: 12px;}
+
+.devet {flex-basis: 16%;
+    text-align: center;
+    padding: 12px;}
+
+.deset {flex-basis: 16%;
+    text-align: center;
+    padding: 12px;}
